@@ -1,0 +1,101 @@
+Event_ID,Event_Type,Event_Date,Attendees,Budget_USD,Venue,Status,Organizer
+EVT-001,Charity Gala,2026-05-21,68,5409,Oceanview Resort,Confirmed,Elite Events
+EVT-002,Charity Gala,2026-10-07,66,16087,Grand Ballroom,Cancelled,Joyous Moments Co.
+EVT-003,Birthday,2026-04-30,43,5582,Marriott Hall,Completed,Sparkle & Shine
+EVT-004,Wedding,2026-04-23,263,42493,Skyline Lounge,Pending,Joyous Moments Co.
+EVT-005,Baby Shower,2026-06-24,60,8924,Garden Pavilion,Confirmed,Elite Events
+EVT-006,Baby Shower,2026-02-17,106,3674,Skyline Lounge,Completed,Vows & Views
+EVT-007,Baby Shower,2026-05-16,108,11891,Downtown Convention Center,Completed,Apex Planning
+EVT-008,Product Launch,2026-02-10,71,11201,Marriott Hall,Pending,Sparkle & Shine
+EVT-009,Baby Shower,2026-04-09,112,11459,Hyatt Regency,Completed,Joyous Moments Co.
+EVT-010,Charity Gala,2026-05-29,98,17665,Grand Ballroom,Confirmed,Joyous Moments Co.
+EVT-011,Corporate Conference,2026-11-22,292,54714,Downtown Convention Center,Pending,Elite Events
+EVT-012,Anniversary,2026-12-10,110,5432,Garden Pavilion,Completed,Sparkle & Shine
+EVT-013,Charity Gala,2026-05-06,83,13751,Oceanview Resort,Cancelled,Apex Planning
+EVT-014,Anniversary,2026-01-29,76,7313,Oceanview Resort,Completed,Vows & Views
+EVT-015,Corporate Conference,2026-04-19,287,29337,Marriott Hall,Pending,Elite Events
+EVT-016,Charity Gala,2026-11-26,167,11482,Skyline Lounge,Confirmed,Vows & Views
+EVT-017,Wedding,2026-10-27,143,32219,Skyline Lounge,Cancelled,Vows & Views
+EVT-018,Wedding,2026-09-10,115,48392,Grand Ballroom,Completed,Joyous Moments Co.
+EVT-019,Wedding,2026-12-15,240,25484,Skyline Lounge,Completed,Apex Planning
+EVT-020,Corporate Conference,2026-09-28,455,55674,Garden Pavilion,Completed,Joyous Moments Co.
+EVT-021,Charity Gala,2026-05-17,177,17302,Downtown Convention Center,Pending,Joyous Moments Co.
+EVT-022,Anniversary,2026-08-21,131,4591,Grand Ballroom,Pending,Sparkle & Shine
+EVT-023,Baby Shower,2026-02-24,65,10317,Downtown Convention Center,Pending,Sparkle & Shine
+EVT-024,Product Launch,2026-07-11,90,7504,Downtown Convention Center,Confirmed,Sparkle & Shine
+EVT-025,Baby Shower,2026-06-15,20,11813,Skyline Lounge,Completed,Joyous Moments Co.
+EVT-026,Anniversary,2026-01-30,98,5923,Oceanview Resort,Completed,Joyous Moments Co.
+EVT-027,Charity Gala,2026-02-05,164,18369,Downtown Convention Center,Confirmed,Elite Events
+EVT-028,Charity Gala,2026-03-26,161,14007,Garden Pavilion,Cancelled,Elite Events
+EVT-029,Product Launch,2026-06-09,91,16680,Skyline Lounge,Pending,Apex Planning
+EVT-030,Product Launch,2026-05-07,155,6982,Oceanview Resort,Completed,Vows & Views
+EVT-031,Birthday,2026-04-23,78,11641,Grand Ballroom,Completed,Joyous Moments Co.
+EVT-032,Wedding,2026-06-19,97,17058,Grand Ballroom,Confirmed,Vows & Views
+EVT-033,Charity Gala,2026-10-04,164,8510,Oceanview Resort,Cancelled,Elite Events
+EVT-034,Baby Shower,2026-04-08,141,8669,Grand Ballroom,Completed,Apex Planning
+EVT-035,Anniversary,2026-08-28,128,8735,Downtown Convention Center,Completed,Joyous Moments Co.
+EVT-036,Birthday,2026-02-25,123,7559,Oceanview Resort,Confirmed,Elite Events
+EVT-037,Product Launch,2026-08-05,154,7296,Oceanview Resort,Pending,Apex Planning
+EVT-038,Wedding,2026-10-09,99,44041,Grand Ballroom,Completed,Sparkle & Shine
+EVT-039,Baby Shower,2026-05-02,23,3528,Oceanview Resort,Cancelled,Apex Planning
+EVT-040,Corporate Conference,2026-01-31,259,51282,Oceanview Resort,Cancelled,Joyous Moments Co.
+EVT-041,Corporate Conference,2026-05-27,285,54819,Skyline Lounge,Cancelled,Elite Events
+EVT-042,Wedding,2026-01-30,155,29267,Marriott Hall,Completed,Vows & Views
+EVT-043,Birthday,2026-09-02,32,11571,Marriott Hall,Confirmed,Joyous Moments Co.
+EVT-044,Product Launch,2026-04-06,60,18948,Grand Ballroom,Completed,Elite Events
+EVT-045,Corporate Conference,2026-05-07,211,62334,Marriott Hall,Completed,Sparkle & Shine
+EVT-046,Birthday,2026-10-17,127,11562,Marriott Hall,Pending,Vows & Views
+EVT-047,Wedding,2026-05-03,251,35590,Garden Pavilion,Cancelled,Elite Events
+EVT-048,Charity Gala,2026-06-11,116,12491,Downtown Convention Center,Completed,Joyous Moments Co.
+EVT-049,Corporate Conference,2026-02-21,468,61896,Grand Ballroom,Confirmed,Sparkle & Shine
+EVT-050,Anniversary,2026-02-05,53,7718,Oceanview Resort,Pending,Vows & Views
+EVT-051,Wedding,2026-11-10,192,34825,Downtown Convention Center,Completed,Sparkle & Shine
+EVT-052,Anniversary,2026-05-16,46,4200,Grand Ballroom,Completed,Sparkle & Shine
+EVT-053,Wedding,2026-11-06,149,33465,Oceanview Resort,Pending,Elite Events
+EVT-054,Charity Gala,2026-09-08,107,13280,Garden Pavilion,Completed,Joyous Moments Co.
+EVT-055,Charity Gala,2026-05-22,148,18588,Grand Ballroom,Completed,Vows & Views
+EVT-056,Baby Shower,2026-03-24,53,6291,Hyatt Regency,Cancelled,Sparkle & Shine
+EVT-057,Charity Gala,2026-01-05,149,14189,Grand Ballroom,Completed,Elite Events
+EVT-058,Product Launch,2026-07-09,49,18674,Marriott Hall,Confirmed,Apex Planning
+EVT-059,Wedding,2026-07-06,90,35202,Downtown Convention Center,Completed,Vows & Views
+EVT-060,Wedding,2026-12-08,254,31353,Grand Ballroom,Pending,Sparkle & Shine
+EVT-061,Baby Shower,2026-05-02,124,4532,Downtown Convention Center,Confirmed,Elite Events
+EVT-062,Corporate Conference,2026-06-20,162,36754,Downtown Convention Center,Cancelled,Elite Events
+EVT-063,Anniversary,2026-07-15,60,3771,Downtown Convention Center,Completed,Apex Planning
+EVT-064,Wedding,2026-06-29,131,45166,Garden Pavilion,Confirmed,Elite Events
+EVT-065,Birthday,2026-06-18,69,8528,Garden Pavilion,Completed,Vows & Views
+EVT-066,Anniversary,2026-12-14,150,8548,Downtown Convention Center,Pending,Joyous Moments Co.
+EVT-067,Birthday,2026-10-25,86,4925,Garden Pavilion,Completed,Joyous Moments Co.
+EVT-068,Product Launch,2026-06-10,151,10663,Skyline Lounge,Completed,Apex Planning
+EVT-069,Product Launch,2026-01-23,88,9173,Hyatt Regency,Cancelled,Joyous Moments Co.
+EVT-070,Product Launch,2026-12-10,177,16253,Oceanview Resort,Pending,Apex Planning
+EVT-071,Birthday,2026-12-06,104,7143,Downtown Convention Center,Completed,Vows & Views
+EVT-072,Product Launch,2026-07-29,119,15926,Garden Pavilion,Cancelled,Vows & Views
+EVT-073,Product Launch,2026-08-04,72,8143,Hyatt Regency,Cancelled,Elite Events
+EVT-074,Product Launch,2026-07-27,185,9930,Marriott Hall,Completed,Vows & Views
+EVT-075,Anniversary,2026-10-24,73,9043,Marriott Hall,Pending,Apex Planning
+EVT-076,Corporate Conference,2026-04-20,376,69277,Marriott Hall,Cancelled,Elite Events
+EVT-077,Charity Gala,2026-09-21,61,9649,Hyatt Regency,Pending,Joyous Moments Co.
+EVT-078,Baby Shower,2026-04-26,80,7085,Downtown Convention Center,Confirmed,Elite Events
+EVT-079,Birthday,2026-09-01,31,6011,Marriott Hall,Completed,Apex Planning
+EVT-080,Corporate Conference,2026-04-10,472,62727,Hyatt Regency,Cancelled,Apex Planning
+EVT-081,Corporate Conference,2026-12-02,274,34671,Hyatt Regency,Completed,Joyous Moments Co.
+EVT-082,Baby Shower,2026-04-01,128,5585,Downtown Convention Center,Cancelled,Joyous Moments Co.
+EVT-083,Product Launch,2026-03-04,103,18899,Skyline Lounge,Confirmed,Apex Planning
+EVT-084,Charity Gala,2026-11-01,175,14157,Garden Pavilion,Cancelled,Sparkle & Shine
+EVT-085,Baby Shower,2026-10-08,149,8991,Skyline Lounge,Confirmed,Apex Planning
+EVT-086,Corporate Conference,2026-05-07,282,74268,Downtown Convention Center,Pending,Sparkle & Shine
+EVT-087,Corporate Conference,2026-05-21,470,40679,Skyline Lounge,Completed,Vows & Views
+EVT-088,Wedding,2026-06-13,149,37010,Marriott Hall,Completed,Elite Events
+EVT-089,Wedding,2026-12-22,139,40102,Oceanview Resort,Confirmed,Joyous Moments Co.
+EVT-090,Corporate Conference,2026-10-05,358,46684,Skyline Lounge,Cancelled,Joyous Moments Co.
+EVT-091,Wedding,2026-07-19,293,42534,Downtown Convention Center,Completed,Sparkle & Shine
+EVT-092,Corporate Conference,2026-06-30,394,25386,Garden Pavilion,Cancelled,Apex Planning
+EVT-093,Product Launch,2026-11-05,179,18105,Oceanview Resort,Cancelled,Elite Events
+EVT-094,Anniversary,2026-01-15,131,9956,Skyline Lounge,Pending,Apex Planning
+EVT-095,Charity Gala,2026-08-28,82,18770,Oceanview Resort,Completed,Apex Planning
+EVT-096,Product Launch,2026-01-14,184,15862,Grand Ballroom,Cancelled,Elite Events
+EVT-097,Baby Shower,2026-01-26,138,4977,Garden Pavilion,Cancelled,Vows & Views
+EVT-098,Wedding,2026-06-22,196,36420,Downtown Convention Center,Cancelled,Vows & Views
+EVT-099,Baby Shower,2026-02-11,127,6133,Skyline Lounge,Completed,Sparkle & Shine
+EVT-100,Birthday,2026-11-29,109,5673,Grand Ballroom,Completed,Joyous Moments Co.

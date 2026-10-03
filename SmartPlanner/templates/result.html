@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prediction Result</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: url('https://img.magnific.com/free-vector/gift-shopping-checklist-girl-cartoon-character-buying-presents-online-e-commerce-gift-card-promotion-birthday-anniversary-bonus_335657-77.jpg?semt=ais_hybrid&w=740&q=80');
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        /* Prediction Card */
+
+        .result-card {
+            background: white;
+            padding: 35px;
+            border-radius: 18px;
+            text-align: center;
+            box-shadow: 0 10px 35px rgba(0, 0, 0, 0.2);
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #777;
+            margin-bottom: 25px;
+            font-size: 16px;
+        }
+
+        .prediction {
+            background: #f0f7ff;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 10px;
+        }
+
+        .prediction h2 {
+            color: #555;
+            font-size: 20px;
+        }
+
+        .amount {
+            font-size: 40px;
+            font-weight: bold;
+            color: #667eea;
+            margin-top: 10px;
+        }
+
+        /* Graph Card */
+
+        .graph-card {
+            background: white;
+            padding: 30px;
+            border-radius: 18px;
+            box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+        }
+
+        .graph-card h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .graph {
+            width: 100%;
+            height: 350px;
+        }
+
+        /* Back Button */
+
+        .button-container {
+            text-align: center;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .back-button:hover {
+            background: #5568d9;
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+
+        .footer {
+            margin-top: 35px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.5);
+            text-align: center;
+            color: white;
+        }
+
+        .footer p {
+            margin-bottom: 8px;
+        }
+
+        .footer span {
+            margin: 0 10px;
+        }
+
+        /* Mobile */
+
+        @media (max-width: 600px) {
+
+            body {
+                padding: 20px 10px;
+            }
+
+            .result-card,
+            .graph-card {
+                padding: 20px;
+            }
+
+            .amount {
+                font-size: 32px;
+            }
+
+            .graph {
+                height: 280px;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+    <!-- Prediction Result -->
+
+    <div class="result-card">
+
+        <h1>Event Budget Prediction</h1>
+
+        <p class="subtitle">
+            Your estimated event budget is
+        </p>
+
+        <div class="prediction">
+
+            <h2>Predicted Budget</h2>
+
+            <!-- Rupee Symbol -->
+
+            <div class="amount">
+                ₹{{ prediction }}
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Graph -->
+
+    <div class="graph-card">
+
+        <h2>📊 Budget Comparison</h2>
+
+        <div class="graph">
+
+            <canvas id="budgetChart"></canvas>
+
+        </div>
+
+    </div>
+
+
+    <!-- Back Button -->
+
+    <div class="button-container">
+
+        <a href="/" class="back-button">
+            ← Predict Another Event
+        </a>
+
+    </div>
+
+
+    <!-- Footer -->
+
+    <div class="footer">
+
+        <p><strong>Event Management ML System</strong></p>
+
+        <p>
+            <span>📧 Contact Us</span>
+            <span>📊 Budget Prediction</span>
+            <span>🤖 Machine Learning</span>
+        </p>
+
+    </div>
+
+</div>
+
+
+<!-- Chart.js -->
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+<script>
+
+    // Get prediction value from Flask
+
+    const predictedBudget = {{ prediction }};
+
+
+    // Create Chart
+
+    const ctx = document.getElementById('budgetChart').getContext('2d');
+
+    const budgetChart = new Chart(ctx, {
+
+        type: 'bar',
+
+        data: {
+
+            labels: ['Predicted Event Budget'],
+
+            datasets: [{
+
+                label: 'Budget (₹)',
+
+                data: [predictedBudget],
+
+                borderWidth: 1
+
+            }]
+
+        },
+
+        options: {
+
+            responsive: true,
+
+            maintainAspectRatio: false,
+
+            scales: {
+
+                y: {
+
+                    beginAtZero: true,
+
+                    title: {
+
+                        display: true,
+
+                        text: 'Budget (₹)'
+
+                    }
+
+                },
+
+                x: {
+
+                    title: {
+
+                        display: true,
+
+                        text: 'Prediction'
+
+                    }
+
+                }
+
+            },
+
+            plugins: {
+
+                legend: {
+
+                    display: true
+
+                }
+
+            }
+
+        }
+
+    });
+
+</script>
+
+
+</body>
+
+</html>
