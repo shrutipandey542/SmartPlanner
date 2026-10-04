@@ -24,12 +24,13 @@ SmartPlanner is a machine learning-based event management system that predicts t
 - Chart.js
 
 ## Machine Learning
+SmartPlanner uses Random Forest Regression to predict the estimated budget of an event. It is a supervised machine learning algorithm used for predicting continuous numerical values such as event costs.
 
-SmartPlanner uses **Random Forest Regression** for predicting the event budget.
+Random Forest creates multiple decision trees, where each tree learns different patterns from the training data and produces its own prediction. The final budget prediction is calculated by combining the results of these trees, making the model more reliable and reducing prediction errors.
 
-Random Forest Regression combines multiple decision trees and produces a prediction based on the results of those trees.
+This algorithm is suitable for SmartPlanner because the dataset contains different event-related features such as event type, number of attendees, venue, status, organizer, and event date. After preprocessing and Label Encoding, these features are used by the model to learn the relationship between event details and budget.
 
-It is suitable for this project because the dataset contains different types of event information, including numerical and categorical features.
+The model is trained using 80% of the dataset and tested on the remaining 20%. Its performance is evaluated using MAE and R² Score. The trained model is saved using Joblib and integrated with Flask to provide budget predictions through the web application.
 
 ## Dataset
 
